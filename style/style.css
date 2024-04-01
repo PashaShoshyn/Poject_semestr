@@ -1,0 +1,192 @@
+:root{
+    --color-body-blue:#012D63;
+    --color-body-violet:#8E32C6;
+    --color-body-white:#FFFFFF;
+    --color-body-gray_1:#DCDCDC;
+    --color-body-gray_2:#C7C7C7;
+    --color-body-gray_3:#959595;
+    --color-body-gray_4:#8D8D8D;
+    --color-body-gray_5:#9B9B9B;
+    --color-body-gray_6:#D8D8D8;
+    --color-body-black:#021635;
+
+
+    --font-family: "Roboto", sans-serif;
+    --second-family: "PT Serif", sans-serif;
+    --second-family: "Playfair Display", sans-serif;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px dashed tomato;
+    }
+
+/* header */
+.header{
+    background-color: var(--color-body-black);
+}
+
+.header-link_1{
+    color: var(--color-body-white);
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.header-link{
+color: var(--color-body-gray_2);
+font-family: 'Roboto';
+font-weight: 300;
+}
+
+.header-link_2{
+    color: var(--color-body-gray_1);
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.header-link_current{
+    color: var(--color-body-white);
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+
+/* hero */
+.hero-title{
+    /* color: var(--color-body-white); */
+    font-weight: 400;
+    font-family: 'PT Serif';
+}
+
+.hero-subject_1{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    /* color: var(--color-body-white); */
+}
+
+.hero-subject_2{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    /* color: var(--color-body-white); */
+}
+
+.hero-tex{
+    font-weight: 400;
+    /* color: var(--color-body-white); */
+    font-family: 'Roboto';
+}
+
+.hero-button{
+    font-weight: 400;
+    font-family: 'Roboto';
+    /* color: var(--color-body-white); */
+}
+
+
+/* features */
+
+.features-title{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    /* color: var(--color-body-white); */
+}
+
+
+
+
+/* Reviews */
+
+.Reviews-title{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    /* color: var(--color-body-white); */
+}
+
+.Reviews-tex_1{
+    font-weight: 400;
+    font-family: 'Roboto';
+    /* color: var(--color-body-white); */
+}
+
+.Reviews-tex_2{
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: var(--color-body-gray_6);
+}
+
+.Reviews-subject{
+    font-weight: 400;
+    /* color: var(--color-body-white); */
+    font-family: 'Roboto';
+}
+
+.Reviews-tex_3{
+    font-weight: 400;
+    color: var(--color-body-gray_6);
+}
+
+
+
+
+/* Order */
+.Order-title{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    /* color: var(--color-body-white); */
+}
+
+.Order-lead_1{
+    font-weight: 400;
+    color: var(--color-body-gray_3);
+    font-family: 'Roboto';
+}
+
+.Order-button_1{
+    color: var(--color-body-gray_4);
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.Order-lead_2{
+    font-weight: 400;
+    color: var(--color-body-gray_3);
+    font-family: 'Roboto';
+}
+
+.Order-button_2{
+    color: var(--color-body-white);
+    background-color: var(--color-body-violet);
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+/* footer */
+.footer{
+    background-color: var(--color-body-black);
+}
+
+.footer-text{
+    font-weight: 400;
+    color: var(--color-body-white);
+    font-family: 'Roboto';
+}
+
+.footer_link{
+    color: var(--color-body-white);
+    font-weight: 400;
+    font-family: 'Roboto'
+}
+
+.footer-text_2{
+    color: var(--color-body-white);
+    font-weight: 400;
+    font-family: 'Roboto'
+}
+
+.Logo_4{
+    font-weight: 400;
+    font-family: 'PT Serif';
+    color: var(--color-body-white);
+}
