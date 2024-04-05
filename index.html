@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    
     <header class="header">
     <div class="container">
-    <div class="logo_logo"></div>
+    <!-- <div class="logo_logo"></div> -->
+    <a href="./" class="logo_logo"><img src="./images/logo_logo.jpg" width="100px"></a>
     <nav>
     <ul class="header-list">
     <li class="header-item"><a href="./" class="header-link_1">Main page</a></li>
@@ -25,12 +25,10 @@
     </ul>
     </nav>
 
-    <div>
     <ul class="list_box">
     <li><a href="./" class="box_1">Ua</a></li> 
     <li><a href="./" class="box_2">Eng</a></li>
     </ul>
-    </div>
     </div>
     </header>
 
@@ -47,22 +45,22 @@
     </section>
     
     <section class="features">
-        <div class="container">
+    <div class="container">
     <ul class="features-list">
-        <li class="features-item">
-            <h3 class="features-title">Premium Quality</h3>
+        <li class="features-item_stars">
+            <h3 class="features-title_stars">Premium Quality</h3>
             <img src="./images/stars.jpg" alt="stars" width="240"> 
         </li>
-        <li class="features-item">
+        <li class="features-item_spray">
             <img src="./images/spray.jpg" alt="spray" width="240">
-            <h3 class="features-title">Indelible paint</h3>
+            <h3 class="features-title_spray">Indelible paint</h3>
         </li>
-        <li class="features-item">
-            <h3 class="features-title">Fast shipping</h3>
+        <li class="features-item_car">
+            <h3 class="features-title_car">Fast shipping</h3>
             <img src="./images/car.jpg" alt="car" width="240">
         </li>
     </ul>
-</div>
+    </div>
     </section>
 
 
@@ -98,8 +96,9 @@
 
 
     <section class="Order">
+        <div class="container">
         <h2 class="Order-title">Order</h2>
-
+        <div class="Order-container">
             <form action="/submit" method="post">
             <label for="email" class="Order-lead_1">Write your email:</label>
             <input type="email" id="email" name="email" class="Order-lead_1" required>
@@ -117,10 +116,13 @@
 
               <button type="submit" class="Order-button_2">Order my Nike</button>
         </form>
+        </div>
+    </div>
     </section>
     </main>
     
     <footer class="footer">
+        <div class="container">
             <ul class="footer-list">
                 <li class="footer-item">
                     <p class="footer-text">Have a question?</p>
@@ -138,16 +140,11 @@
             <ul class="footer-list_2">
                 <li class="footer-item_2">
                     <p class="footer-text_2">2022 ColoRawe @All rights reserved</p>
-                </li>
-                <li class="footer-itme_2">
                     <p class="footer-text_2">United States</p>
                 </li>
+                <li class="footer-list_3"><a  href="./" class="Logo_4"><img src="./images/logo_logo.jpg" width="108px">С&R</a></li>
             </ul>
-
-            <div class="log">
-                <a  href="./"  class="Logo_4">С&R</a>
-            </div>
-      
+        </div>
     </footer>
     </div>
 </body>
