@@ -37,6 +37,8 @@ body{
 /* header */
 .header{
     background-color: var(--color-body-black);
+    width: 1440px;
+    margin-left: 100px;
 }
 
 /* .logo_logo{
@@ -92,6 +94,11 @@ font-size: 24px;
 /* hero */
 .hero{
     background: url('../images/layer_1.jpg');
+<<<<<<< HEAD
+=======
+    width: 1440px;
+    margin-left: 100px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 
@@ -100,6 +107,10 @@ font-size: 24px;
     font-weight: 400;
     font-family: 'PT Serif';
     font-size: 48px;
+<<<<<<< HEAD
+=======
+    margin-left: 170px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 .hero-subject_1{
@@ -139,6 +150,10 @@ font-size: 24px;
     width: 254px;
     height: 67px;
     font-size: 24px;
+<<<<<<< HEAD
+=======
+    margin-bottom: 250px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 
@@ -146,12 +161,15 @@ font-size: 24px;
 
 .features{
     background: url('../images/layer_2.jpg');
+    width: 1440px;
+    margin-left: 100px;
 }
 
 .features-item_stars{
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 50px;
+<<<<<<< HEAD
 }
 
 
@@ -173,6 +191,29 @@ font-size: 24px;
     justify-content: space-between;
 }
 
+=======
+}
+
+
+.features-item_spray{
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.features-item_car{
+    margin-top: 22px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+
+
+.features-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 .features-title{
     font-weight: 400;
     font-family: 'Playfair Display';
@@ -189,7 +230,11 @@ font-size: 24px;
     height: 102px;
 }
 
+<<<<<<< HEAD
 .features-title_spray{
+=======
+.features-item_spray{
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
     font-weight: 400;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
@@ -198,7 +243,11 @@ font-size: 24px;
     height: 102px;
 }
 
+<<<<<<< HEAD
 .features-title_car{
+=======
+.features-item_car{
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
     font-weight: 400;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
@@ -212,6 +261,29 @@ font-size: 24px;
 /* Reviews */
 .Reviews{
     background: url('../images/layer_3.jpg');
+    width: 1440px;
+    margin-left: 100px;
+}
+
+.Reviews-list{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.Reviews-items_title{
+    width: 255px;
+    height: 292px;
+}
+
+.Reviews-items_subject{
+    width: 255px;
+    height: 292px;
+}
+
+.Reviews-items_heading{
+    width: 255px;
+    height: 292px;
 }
 
 .Reviews-list{
@@ -301,6 +373,8 @@ font-size: 24px;
 
 .Order{
     background: url('../images/layer_4.jpg');
+    width: 1440px;
+    margin-left: 100px;
 }
 
 .Order-title{
@@ -309,6 +383,10 @@ font-size: 24px;
     color: var(--color-body-white);
     display: block;
     font-size: 48px;
+<<<<<<< HEAD
+=======
+    margin-left: 650px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 .Order-lead_1{
@@ -317,6 +395,10 @@ font-size: 24px;
     font-family: 'Roboto';
     display: block;
     font-size: 28px;
+<<<<<<< HEAD
+=======
+    margin-left: 520px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 .Order-button_1{
@@ -324,6 +406,10 @@ font-size: 24px;
     font-weight: 400;
     font-family: 'Roboto';
     font-size: 28px;
+<<<<<<< HEAD
+=======
+    margin-left: 520px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 .Order-lead_2{
@@ -332,6 +418,11 @@ font-size: 24px;
     font-family: 'Roboto';
     display: block;
     font-size: 24px;
+<<<<<<< HEAD
+=======
+    margin-left: 530px;
+    margin-top: 19px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 .Order-button_2{
@@ -341,11 +432,18 @@ font-size: 24px;
     font-family: 'Roboto';
     display: block;
     font-size: 24px;
+<<<<<<< HEAD
+=======
+    margin-left: 600px;
+    margin-top: 19px;
+>>>>>>> 44b97fd981b9c9a58a72c2981b8ba8924c44c231
 }
 
 /* footer */
 .footer{
     background-color: var(--color-body-black);
+    width: 1440px;
+    margin-left: 100px;
 }
 
 
@@ -376,6 +474,22 @@ font-size: 24px;
     font-family: 'Roboto';
     font-size: 24px;
 }
+
+/* .log{
+    display: block;
+    justify-content: flex-end;
+} */
+
+.footer-item_2{
+    margin-top: 44px;
+}
+
+
+.footer-list_2{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .Logo_4{
     font-weight: 400;
