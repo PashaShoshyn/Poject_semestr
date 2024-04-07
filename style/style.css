@@ -16,10 +16,21 @@
     --second-family: "Playfair Display", sans-serif;
 }
 
-.container{
+body{
+    font-family: 'Roboto';
+}
+
+.main-container{
     width: 1440px;
     margin: 0 auto;
-    padding: 0 15px;
+    outline: 1px dashed green;
+
+}
+
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
     outline: 1px dashed tomato;
     }
 
@@ -28,25 +39,23 @@
     background-color: var(--color-body-black);
 }
 
-.logo_logo{
+/* .logo_logo{
   background: url('../images/logo_logo.jpg');
   width: 100px;
   height: 60px;
   background-position: left;
   background-size: cover;
-}
+} */
 
 .header-link_1{
     color: var(--color-body-white);
     font-family: 'Roboto';
     font-weight: 400;
-    margin-right: 29px;
     font-size: 24px;
 }
 
 .header-list{
 display: flex;
-margin-left: 152px;
 justify-content: center;
 }
 
@@ -83,20 +92,14 @@ font-size: 24px;
 /* hero */
 .hero{
     background: url('../images/layer_1.jpg');
-    width: 1400px;
 }
 
 
 .box{
-    background: url('../images/logo_logo.jpg');
-    background-size: cover;
     color: var(--color-body-white);
     font-weight: 400;
     font-family: 'PT Serif';
     font-size: 48px;
-    margin-left: 170px;
-    margin-top: 94px;
-    padding: 20px;
 }
 
 .hero-subject_1{
@@ -104,7 +107,6 @@ font-size: 24px;
     font-weight: 400;
     color: var(--color-body-white);
     font-size: 144px;
-    margin-left: 156px;
     padding-top: 5px;
 }
 
@@ -124,6 +126,7 @@ font-size: 24px;
     padding-top: 12px;
     padding-bottom: 41px;
     width: 508px;
+   
 }
 
 .hero-button{
@@ -132,7 +135,10 @@ font-size: 24px;
     color: var(--color-body-white);
     background-color: var(--color-body-violet);
     display: block;
-    
+    margin-top: 41px;
+    width: 254px;
+    height: 67px;
+    font-size: 24px;
 }
 
 
@@ -142,17 +148,64 @@ font-size: 24px;
     background: url('../images/layer_2.jpg');
 }
 
-.features-list{
-    display: flex;
+.features-item_stars{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
 }
 
+
+.features-item_spray{
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.features-item_car{
+    margin-top: 22px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+
+
+.features-list{
+    display: flex;
+    justify-content: space-between;
+}
 
 .features-title{
     font-weight: 400;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
+    font-size: 36px;
 }
 
+.features-title_stars{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    color: var(--color-body-white);
+    font-size: 36px;
+    width: 159px;
+    height: 102px;
+}
+
+.features-title_spray{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    color: var(--color-body-white);
+    font-size: 36px;
+    width: 161px;
+    height: 102px;
+}
+
+.features-title_car{
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    color: var(--color-body-white);
+    font-size: 36px;
+    width: 151px;
+    height: 103px;
+}
 
 
 
@@ -161,10 +214,34 @@ font-size: 24px;
     background: url('../images/layer_3.jpg');
 }
 
+.Reviews-list{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.Reviews-items_title{
+    width: 255px;
+    height: 292px;
+}
+
+.Reviews-items_subject{
+    width: 255px;
+    height: 292px;
+}
+
+.Reviews-items_heading{
+    width: 255px;
+    height: 292px;
+}
+
 .Reviews-title{
     font-weight: 400;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
+    font-size: 48px;
+    margin-left: 633px;
+    margin-bottom: 24px;
 }
 
 .Reviews-list_img{
@@ -217,6 +294,11 @@ font-size: 24px;
 
 /* Order */
 
+/* .Order-container{
+    justify-content: center; 
+}  */
+
+
 .Order{
     background: url('../images/layer_4.jpg');
 }
@@ -227,8 +309,6 @@ font-size: 24px;
     color: var(--color-body-white);
     display: block;
     font-size: 48px;
-    margin-left: 655px;
-    margin-right: 655px;
 }
 
 .Order-lead_1{
@@ -237,8 +317,6 @@ font-size: 24px;
     font-family: 'Roboto';
     display: block;
     font-size: 28px;
-    margin-left: 375px;
-    margin-right: 375px;
 }
 
 .Order-button_1{
@@ -246,8 +324,6 @@ font-size: 24px;
     font-weight: 400;
     font-family: 'Roboto';
     font-size: 28px;
-    margin-left: 375px;
-    margin-right: 375px;
 }
 
 .Order-lead_2{
@@ -256,9 +332,6 @@ font-size: 24px;
     font-family: 'Roboto';
     display: block;
     font-size: 24px;
-    margin-left: 430px;
-    margin-right: 430px;
-    margin-top: 19px;
 }
 
 .Order-button_2{
@@ -268,9 +341,6 @@ font-size: 24px;
     font-family: 'Roboto';
     display: block;
     font-size: 24px;
-    margin-left: 596px;
-    margin-right: 596px;
-    margin-top: 19px;
 }
 
 /* footer */
@@ -278,30 +348,38 @@ font-size: 24px;
     background-color: var(--color-body-black);
 }
 
+
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .footer-text{
     font-weight: 400;
     color: var(--color-body-white);
     font-family: 'Roboto';
+    font-size: 24px;
 }
 
 .footer_link{
     color: var(--color-body-white);
     font-weight: 400;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    font-size: 24px;
 }
 
 .footer-text_2{
     color: var(--color-body-white);
     font-weight: 400;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
+    font-size: 24px;
 }
 
 .Logo_4{
-    background-size: cover;
-    background: url('../images/logo_logo.jpg');
     font-weight: 400;
     font-family: 'PT Serif';
     color: var(--color-body-white);
-    width: 108px;
-    height: 81px;
-}
+    font-size: 24px;
+} 
