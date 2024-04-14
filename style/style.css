@@ -166,6 +166,8 @@ font-size: 24px;
     margin-bottom: 25px;
     margin-left: 50px;
     margin-right: 50px;
+    width: 240px;
+    height: 346px;
 }
 
 .features-item_spray{
@@ -173,6 +175,8 @@ font-size: 24px;
     margin-bottom: 19px;
     margin-left: 95px;
     margin-right: 95px;
+    width: 240px;
+    height: 352px;
 }
 
 .features-item_car{
@@ -180,12 +184,12 @@ font-size: 24px;
     margin-bottom: 25px;
     margin-left: 50px;
     margin-right: 50px;
+    width: 240px;
+    height: 349px;
 }
 
 .features-list{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .features-title{
@@ -239,11 +243,35 @@ font-size: 24px;
 
 .reviews-items_title{
     margin-right: 93px;
+    width: 255px;
+    background: linear-gradient(170deg, #00E5E6, #00A8F7, #9A76F9, #CC5EC2);
+    padding-top: 49px;
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-bottom: 29px;
+    border-radius: 15px;
 }
 
 .reviews-items_subject{
     margin-right: 93px;
+    width: 255px;
+    background: linear-gradient(170deg, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
+    padding-top: 49px;
+    padding-left: 18px;
+    padding-right: 9px;
+    padding-bottom: 29px;
+    border-radius: 15px;
 }
+
+.reviews-items_heading{
+    width: 255px;
+    background: linear-gradient(170deg, #FFE128, #FF9B5C, #FF8381, #FF5489);
+    padding-top: 49px;
+    padding-left: 18px;
+    padding-right: 9px;
+    padding-bottom: 29px;
+    border-radius: 15px;
+} 
 
 .reviews-title{
     font-weight: 400;
@@ -254,21 +282,18 @@ font-size: 24px;
 }
 
 .reviews-list_img{
-    background: url('../images/man.jpg');
     width: 31px;
     height: 31px;
     background-size: cover;
 }
 
 .reviews-items_subject_img{
-    background: url('../images/woman.jpg');
     width: 31px;
     height: 31px;
     background-size: cover;
 }
 
 .reviews-items_heading_img{
-    background: url('../images/man_2.jpg');
     width: 31px;
     height: 31px;
     background-size: cover;
@@ -279,12 +304,14 @@ font-size: 24px;
     font-weight: 400;
     font-family: 'Roboto';
     color: var(--color-body-white);
+    margin-bottom: 8px;
 }
 
 .reviews-tex{
     font-weight: 400;
     font-family: 'Roboto';
     color: var(--color-body-gray_6);
+    margin-bottom: 47px;
 }
 
 .reviews-subject{
