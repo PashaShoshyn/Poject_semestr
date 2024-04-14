@@ -37,45 +37,44 @@ body{
 .header{
     background-color: var(--color-body-black);
     width: 1440px;
+    padding-top: 16px;
+    padding-bottom: 14px;
 }
 
-nav{
+.header-flex,
+.header-list,
+.navigation,
+.list_box{
     display: flex;
-}
-
-.header-list{
-    display: flex;
-    margin-left: 152px;
-    margin-right: 73px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    align-items: center;
 }
 
 .header-img{
-    margin-top: 16px;
-    margin-bottom: 14px;
+    margin-right: 152px;
 }
 
-.list_box{
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
+
+.header-list{
+    margin-right: 73px;
 }
 
+
+
+.header-item:not(:last-child){
+    margin-right: 29px;
+}
 
 .header-link_1{
     color: var(--color-body-white);
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 24px;
-    margin-right: 29px;
 }
 
 .header-link{
 color: var(--color-body-gray_2);
 font-family: 'Roboto';
 font-weight: 300;
-margin-right: 29px;
 font-size: 24px;
 }
 
@@ -84,8 +83,8 @@ font-size: 24px;
     color: var(--color-body-gray_1);
     font-family: 'Roboto';
     font-weight: 300;
-    margin-right: 7px;
     font-size: 24px;
+    margin-right: 10px;
 }
 
 .box_2{
@@ -100,13 +99,10 @@ font-size: 24px;
 .hero{
     background: url('../images/layer_1.jpg');
     width: 1440px;
-    height: 858px;
-}
-
-.hero-img{
+    padding-bottom: 183px;
     padding-top: 94px;
-}
 
+}
 
 .box{
     color: var(--color-body-white);
@@ -120,7 +116,6 @@ font-size: 24px;
     font-weight: 400;
     color: var(--color-body-white);
     font-size: 144px;
-    padding-top: 5px;
 }
 
 .hero-subject_2{
@@ -145,10 +140,12 @@ font-size: 24px;
     font-family: 'Roboto';
     color: var(--color-body-white);
     background-color: var(--color-body-violet);
-    display: block;
-    width: 254px;
-    height: 67px;
     font-size: 24px;
+    padding-left: 61px;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-right: 61px;
+    border-radius: 10px;
 }
 
 
@@ -157,56 +154,44 @@ font-size: 24px;
 .features{
     background: url('../images/layer_2.jpg');
     width: 1440px;
+    padding-top: 105px;
+    padding-left: 165px;
+    padding-bottom: 105px;
+    padding-right: 165px;
+   
 }
 
 .features-item_stars{
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 50px;
+    margin-right: 50px;
+    width: 240px;
+    height: 346px;
 }
-
 
 .features-item_spray{
     margin-top: 25px;
     margin-bottom: 19px;
+    margin-left: 95px;
+    margin-right: 95px;
+    width: 240px;
+    height: 352px;
 }
 
 .features-item_car{
     margin-top: 22px;
     margin-bottom: 25px;
+    margin-left: 50px;
     margin-right: 50px;
+    width: 240px;
+    height: 349px;
 }
-
-
 
 .features-list{
     display: flex;
-    justify-content: space-between;
-    padding-top: 105px;
-    padding-bottom: 105px;
 }
 
-
-
-
-
-.features-item_spray{
-    margin-top: 25px;
-    margin-bottom: 19px;
-}
-
-.features-item_car{
-    margin-top: 22px;
-    margin-bottom: 25px;
-    margin-right: 50px;
-}
-
-
-
-.features-list{
-    display: flex;
-    justify-content: space-between;
-}
 .features-title{
     font-weight: 400;
     font-family: 'Playfair Display';
@@ -219,8 +204,6 @@ font-size: 24px;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
     font-size: 36px;
-    width: 159px;
-    height: 102px;
 }
 
 
@@ -229,8 +212,6 @@ font-size: 24px;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
     font-size: 36px;
-    width: 161px;
-    height: 102px;
 } 
 
 .features-title_car{
@@ -238,108 +219,108 @@ font-size: 24px;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
     font-size: 36px;
-    width: 151px;
-    height: 103px;
 } 
 
 
 
 /* Reviews */
-.Reviews{
+.reviews{
     background: url('../images/layer_3.jpg');
     width: 1440px;
+    padding-top: 25px;
+    padding-bottom: 114px;
 }
 
-.Reviews-list{
+.container-reviews{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Reviews-items_title{
-    width: 255px;
-    height: 292px;
-}
-
-.Reviews-items_subject{
-    width: 255px;
-    height: 292px;
-}
-
-.Reviews-items_heading{
-    width: 255px;
-    height: 292px;
-}
-
-.Reviews-list{
+.reviews-list{
     display: flex;
-    justify-content: space-evenly;
 }
 
-.Reviews-items_title{
+.reviews-items_title{
+    margin-right: 93px;
     width: 255px;
-    height: 292px;
+    background: linear-gradient(170deg, #00E5E6, #00A8F7, #9A76F9, #CC5EC2);
+    padding-top: 49px;
+    padding-left: 13px;
+    padding-right: 14px;
+    padding-bottom: 29px;
+    border-radius: 15px;
 }
 
-.Reviews-items_subject{
+.reviews-items_subject{
+    margin-right: 93px;
     width: 255px;
-    height: 292px;
+    background: linear-gradient(170deg, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
+    padding-top: 49px;
+    padding-left: 18px;
+    padding-right: 9px;
+    padding-bottom: 29px;
+    border-radius: 15px;
 }
 
-.Reviews-items_heading{
+.reviews-items_heading{
     width: 255px;
-    height: 292px;
-}
+    background: linear-gradient(170deg, #FFE128, #FF9B5C, #FF8381, #FF5489);
+    padding-top: 49px;
+    padding-left: 18px;
+    padding-right: 9px;
+    padding-bottom: 29px;
+    border-radius: 15px;
+} 
 
-.Reviews-title{
+.reviews-title{
     font-weight: 400;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
     font-size: 48px;
     margin-bottom: 24px;
-    margin-left: 533px;
 }
 
-.Reviews-list_img{
-    background: url('../images/man.jpg');
+.reviews-list_img{
     width: 31px;
     height: 31px;
     background-size: cover;
 }
 
-.Reviews-items_subject_img{
-    background: url('../images/woman.jpg');
+.reviews-items_subject_img{
     width: 31px;
     height: 31px;
     background-size: cover;
 }
 
-.Reviews-items_heading_img{
-    background: url('../images/man_2.jpg');
+.reviews-items_heading_img{
     width: 31px;
     height: 31px;
     background-size: cover;
 }
 
 
-.Reviews-tex_title{
+.reviews-tex_title{
     font-weight: 400;
     font-family: 'Roboto';
     color: var(--color-body-white);
+    margin-bottom: 8px;
 }
 
-.Reviews-tex{
+.reviews-tex{
     font-weight: 400;
     font-family: 'Roboto';
     color: var(--color-body-gray_6);
+    margin-bottom: 47px;
 }
 
-.Reviews-subject{
+.reviews-subject{
     font-weight: 400;
     color: var(--color-body-white);
     font-family: 'Roboto';
 }
 
-.Reviews-tex_subject{
+.reviews-tex_subject{
     font-weight: 400;
     color: var(--color-body-gray_6);
 }
@@ -349,67 +330,73 @@ font-size: 24px;
 
 /* Order */
 
-/* .Order-container{
-    justify-content: center; 
-}  */
-
-
-.Order{
+.order{
     background: url('../images/layer_4.jpg');
     width: 1440px;
+    padding-top: 24px;
+    padding-bottom: 36px;
 }
 
-.Order-title{
+.container-order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.order-title{
     font-weight: 400;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
     display: block;
     font-size: 48px;
-    margin-left: 455px;
 }
 
-.Order-lead_1{
+.order-lead_1{
     font-weight: 400;
     color: var(--color-body-gray_3);
     font-family: 'Roboto';
     display: block;
     font-size: 28px;
-    margin-left: 420px;
 }
 
-.Order-button_1{
+.order-button_1{
     color: var(--color-body-gray_4);
     font-weight: 400;
     font-family: 'Roboto';
     font-size: 28px;
-    margin-left: 520px;
 }
 
-.Order-lead_2{
+.order-lead_2{
     font-weight: 400;
     color: var(--color-body-gray_3);
     font-family: 'Roboto';
     display: block;
     font-size: 24px;
-    margin-left: 430px;
     margin-top: 19px;
 }
 
-.Order-button_2{
+.order-button_2{
     color: var(--color-body-white);
     background-color: var(--color-body-violet);
     font-weight: 400;
     font-family: 'Roboto';
     display: block;
     font-size: 24px;
-    margin-left: 496px;
     margin-top: 19px;
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 49px;
+    padding-right: 48px;
 }
 
 /* footer */
 .footer{
     background-color: var(--color-body-black);
     width: 1440px;
+    padding-bottom: 24px;
+    padding-top: 45px;
 }
 
 
@@ -441,10 +428,9 @@ font-size: 24px;
     font-size: 24px;
 }
 
-/* .log{
-    display: block;
-    justify-content: flex-end;
-} */
+.footer-item:last-child{
+    margin-bottom: 24px;
+}
 
 .footer-item_2{
     margin-top: 44px;
@@ -456,6 +442,11 @@ font-size: 24px;
     justify-content: space-between;
 }
 
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
 
 .Logo_4{
     font-weight: 400;
