@@ -59,10 +59,12 @@
                             <h3 class="features-title_stars">Premium Quality</h3>
                             <img src="./images/stars.jpg" alt="stars" width="240">
                         </li>
+                        <hr class="features-th">
                         <li class="features-item_spray">
                             <img src="./images/spray.jpg" alt="spray" width="240">
                             <h3 class="features-title_spray">Indelible paint</h3>
                         </li>
+                        <hr class="features-th">
                         <li class="features-item_car">
                             <h3 class="features-title_car">Fast shipping</h3>
                             <img src="./images/car.jpg" alt="car" width="240">
@@ -70,8 +72,7 @@
                     </ul>
                 </div>
             </section>
-
-
+            <hr class="features-reviews">
             <section class="reviews">
                 <div class="container container-reviews">
                     <h2 class="reviews-title">Reviews</h2>
@@ -109,19 +110,18 @@
             <section class="order">
                 <div class="container container-order">
                     <h2 class="order-title">Order</h2>
-                    <form action="/submit" method="post">
-                        <label for="email" class="order-lead_1">Write your email:</label>
-                        <input type="email" id="email" name="email" class="order-lead_1" required>
-                        <button type="button" class="order-button_1" id="button" name="email">Confirm</button>
+                    <form class="form">
+                        <input placeholder="Write your email:" type="email" id="email" name="email" class="order-lead_1"
+                            required>
+                        <!-- <button type="button" class="order-button_1" id="button" name="email">Confirm</button> -->
 
-                        <label for="country" class="order-lead_2">Your Country:</label>
-                        <input type="text" id="country" name="country" class="order-lead_2" required>
+                        <input placeholder="Your Country:" type="text" id="country" name="country" class="order-lead_2"
+                            required>
 
-                        <label for="city" class="order-lead_2">Your City:</label>
-                        <input type="text" id="city" name="city" class="order-lead_2" required>
+                        <input placeholder="Your City:" type="text" id="city" name="city" class="order-lead_2" required>
 
-                        <label for="address" class="order-lead_2">Your Adress:</label>
-                        <input type="text" id="address" name="address" class="order-lead_2" required>
+                        <input placeholder="Your Adress:" type="text" id="address" name="address" class="order-lead_2"
+                            required>
 
 
                         <button type="submit" class="order-button_2">Order my Nike</button>
@@ -131,7 +131,7 @@
         </main>
 
         <footer class="footer">
-            <div class="container">
+            <div class="container container-footer">
                 <ul class="footer-list">
                     <li class="footer-item">
                         <p class="footer-text">Have a question?</p>
@@ -146,9 +146,10 @@
                         <a href="./" class="footer_link">ColoRawe_Advertising@gmail.com</a>
                     </li>
                 </ul>
+                <hr class="hr">
                 <p class="footer-text_2">2022 ColoRawe @All rights reserved</p>
                 <p class="footer-text_2">United States</p>
-                <div class="footer-container">
+                <div class="footer-logo">
                     <img src="./images/logo_logo.jpg" alt="footer_logo" width="108px">
                     <p class="Logo_4">С&R</p>
                 </div>
