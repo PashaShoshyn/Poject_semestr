@@ -30,7 +30,7 @@ body {
 .container {
     width: 1110px;
     margin: 0 auto;
-    outline: 1px dashed tomato;
+    /* outline: 1px dashed tomato; */
 }
 
 /* header */
@@ -97,7 +97,7 @@ body {
 /* hero */
 .hero {
     background: url('../images/bacround.png');
-    padding-bottom: 183px;
+    padding-bottom: 155px;
     padding-top: 94px;
 }
 
@@ -152,6 +152,12 @@ body {
     padding-top: 105px;
     padding-bottom: 105px;
 }
+
+.container-features{
+      outline:  5px solid #8E32C6; 
+}
+
+
 
 .features-item_stars {
     margin-top: 25px;
