@@ -485,14 +485,23 @@ body {
 
 .footer-logo{
     display: flex;
-    flex-direction: column;
 }
 
-.footer-logo:last-child{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+
+
+/* .footer-logo_2{
+    margin-left: 624px;
+} */
+
+
+.footer_logo{
+    margin-left: 724px;
 }
+
+.Logo_4{
+    margin-left: 733px;
+}
+
 
 .Logo_4 {
     font-weight: 400;
