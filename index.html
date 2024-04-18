@@ -59,10 +59,12 @@
                             <h3 class="features-title_stars">Premium Quality</h3>
                             <img src="./images/stars.jpg" alt="stars" width="240">
                         </li>
+                        <hr class="features-th">
                         <li class="features-item_spray">
                             <img src="./images/spray.jpg" alt="spray" width="240">
                             <h3 class="features-title_spray">Indelible paint</h3>
                         </li>
+                        <hr class="features-th">
                         <li class="features-item_car">
                             <h3 class="features-title_car">Fast shipping</h3>
                             <img src="./images/car.jpg" alt="car" width="240">
@@ -70,7 +72,6 @@
                     </ul>
                 </div>
             </section>
-
 
             <section class="reviews">
                 <div class="container container-reviews">
@@ -80,48 +81,59 @@
                             <p class="reviews-tex_title">Sneakers are very comfortable and well painted, nothing has
                                 worn off in a year.</p>
                             <p class="reviews-tex">25.11</p>
-                            <h3 class="reviews-subject">John Teylor</h3>
-                            <img src="./images/man.png" alt="Reviews_man_subject">
-                            <p class="reviews-tex_subject">With us from 2018</p>
+                            <div class="container-tex">
+                                <img src="./images/man.png" alt="Reviews_man_subject" class="images">
+                                <div class="container-container">
+                                    <h3 class="reviews-subject">John Teylor</h3>
+                                    <p class="reviews-tex_subject">With us from 2018</p>
+                                </div>
+                            </div>
                         </li>
                         <li class="reviews-items_subject">
                             <p class="reviews-tex_title">I'm very happy with this color scheme. They match all my
                                 clothes.</p>
                             <p class="reviews-tex">05.01</p>
-                            <h3 class="reviews-subject">Elizabeth Garsia</h3>
-                            <img src="./images/woman.png" alt="Reviews_woman_subject">
-                            <p class="reviews-tex_subject">With us from 2020</p>
+                            <div class="container-tex">
+                                <img src="./images/woman.png" alt="Reviews_woman_title" class="images">
+                                <div class="container-container">
+                                    <h3 class="reviews-subject">Elizabeth Garsia</h3>
+                                    <p class="reviews-tex_subject">With us from 2020</p>
+                                </div>
+                            </div>
                         </li>
                         <li class="reviews-items_heading">
                             <p class="reviews-tex_title">Just right if you need to go to a party. I use them actively,
                                 the paint is super.</p>
                             <p class="reviews-tex">18.06</p>
-                            <h3 class="reviews-subject">Tom Maquare</h3>
-                            <img src="./images/man_2.png" alt="Reviews_woman_title">
-                            <p class="reviews-tex_subject">With us from 2019</p>
+                            <div class="container-tex">
+                                <img src="./images/man_2.png" alt="Reviews_man-2_title" class="images">
+                                <div class="container-container">
+                                    <h3 class="reviews-subject">Tom Maquare</h3>
+                                    <p class="reviews-tex_subject">With us from 2019</p>
+                                </div>
+                            </div>
                         </li>
                     </ul>
+                    <div class="flover"></div>
                 </div>
+                <!-- <img src="./images/flover.png" width="340px" > -->
             </section>
-
-
 
             <section class="order">
                 <div class="container container-order">
                     <h2 class="order-title">Order</h2>
-                    <form action="/submit" method="post">
-                        <label for="email" class="order-lead_1">Write your email:</label>
-                        <input type="email" id="email" name="email" class="order-lead_1" required>
-                        <button type="button" class="order-button_1" id="button" name="email">Confirm</button>
+                    <form class="form">
+                        <input placeholder="Write your email:" type="email" id="email" name="email" class="order-lead_1"
+                            required>
+                        <!-- <button type="button" class="order-button_1" id="button" name="email">Confirm</button> -->
 
-                        <label for="country" class="order-lead_2">Your Country:</label>
-                        <input type="text" id="country" name="country" class="order-lead_2" required>
+                        <input placeholder="Your Country:" type="text" id="country" name="country" class="order-lead_2"
+                            required>
 
-                        <label for="city" class="order-lead_2">Your City:</label>
-                        <input type="text" id="city" name="city" class="order-lead_2" required>
+                        <input placeholder="Your City:" type="text" id="city" name="city" class="order-lead_2" required>
 
-                        <label for="address" class="order-lead_2">Your Adress:</label>
-                        <input type="text" id="address" name="address" class="order-lead_2" required>
+                        <input placeholder="Your Adress:" type="text" id="address" name="address" class="order-lead_2"
+                            required>
 
 
                         <button type="submit" class="order-button_2">Order my Nike</button>
@@ -131,7 +143,7 @@
         </main>
 
         <footer class="footer">
-            <div class="container">
+            <div class="container container-footer">
                 <ul class="footer-list">
                     <li class="footer-item">
                         <p class="footer-text">Have a question?</p>
@@ -146,12 +158,24 @@
                         <a href="./" class="footer_link">ColoRawe_Advertising@gmail.com</a>
                     </li>
                 </ul>
-                <p class="footer-text_2">2022 ColoRawe @All rights reserved</p>
-                <p class="footer-text_2">United States</p>
-                <div class="footer-container">
-                    <img src="./images/logo_logo.jpg" alt="footer_logo" width="108px">
-                    <p class="Logo_4">С&R</p>
+                <hr class="hr">
+                <div class="footer-logo">
+                    <ul>
+                        <li>
+                            <p class="footer-text_2">2022 ColoRawe @All rights reserved</p>
+                        </li>
+                        <li>
+                            <p class="footer-text_2">United States</p>
+                        </li>
+                    </ul>
+
+                    <div class="footer-logo_2">
+                        <img src="./images/logo_logo.jpg" alt="footer_logo" width="108px" class="footer_logo">
+                        <p class="Logo_4">С&R</p>
+                    </div>
                 </div>
+
+
             </div>
         </footer>
     </div>
