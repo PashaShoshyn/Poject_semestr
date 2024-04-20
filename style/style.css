@@ -218,7 +218,8 @@ body {
 
 /* Reviews */
 .reviews {
-    background: url('../images/layer_3.jpg');
+    background-image: url(../images/layer_3.jpg), url(../images/flover.png) ;
+
     padding-top: 25px;
     padding-bottom: 114px;
     border-top: 2px solid #FFFFFF;
