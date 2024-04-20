@@ -248,7 +248,7 @@ body {
 .reviews-items_title {
     margin-right: 93px;
     width: 255px;
-    box-shadow: 0 30px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
+    box-shadow:  0 14px  0 -5px  #533978,  0 30px   0 -13px #7b54b2;
     background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
     padding-top: 49px;
     padding-left: 13px;
@@ -260,7 +260,7 @@ body {
 .reviews-items_subject {
     margin-right: 93px;
     width: 255px;
-    box-shadow: 0 30px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
+    box-shadow:  0 14px  0 -5px  #61337c,   0 30px   0 -13px  #9159b1;
     background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
     padding-top: 49px;
     padding-left: 18px;
@@ -271,7 +271,7 @@ body {
 
 .reviews-items_heading {
     width: 255px;
-    box-shadow: 0 30px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
+    box-shadow:  0 14px  0 -5px  #732f26, 0 30px   0 -13px #b95a4c;
     background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
     padding-top: 49px;
     padding-left: 18px;
