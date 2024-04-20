@@ -221,7 +221,7 @@ body {
     background-image: 
     url(../images/flover.png) ,
     url(../images/layer_3.jpg);
-    background-position: left;
+    background-position: left bottom;
     background-repeat: no-repeat;
     padding-top: 25px;
     padding-bottom: 118px;
