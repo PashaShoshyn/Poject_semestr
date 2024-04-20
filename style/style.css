@@ -68,6 +68,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 24px;
+    line-height: 28.13px;
 }
 
 .header-link {
@@ -75,6 +76,7 @@ body {
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 24px;
+    line-height: 28.13px;
 }
 
 
@@ -84,6 +86,7 @@ body {
     font-weight: 300;
     font-size: 24px;
     margin-right: 10px;
+    line-height: 28.13px;
 }
 
 .box_2 {
@@ -91,13 +94,14 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 24px;
+    line-height: 28.13px;
 }
 
 
 /* hero */
 .hero {
     background: url('../images/bacround.png');
-    padding-bottom: 155px;
+    padding-bottom: 117px;
     padding-top: 94px;
 }
 
@@ -106,6 +110,7 @@ body {
     font-weight: 400;
     font-family: 'PT Serif';
     font-size: 48px;
+    line-height: 63.6px;
 }
 
 .hero-subject_1 {
@@ -113,6 +118,7 @@ body {
     font-weight: 400;
     color: var(--color-body-white);
     font-size: 144px;
+    line-height: 191.95px;
 }
 
 .hero-subject_2 {
@@ -120,7 +126,7 @@ body {
     font-family: 'Playfair Display';
     color: var(--color-body-white);
     font-size: 72px;
-    padding-bottom: 12px;
+    line-height: 95.98px;
 }
 
 .hero-tex {
@@ -129,12 +135,14 @@ body {
     font-size: 18px;
     padding-bottom: 41px;
     width: 508px;
+    line-height: 21.09px;
 }
 
 .hero-button {
     font-weight: 400;
     font-family: 'Roboto';
     color: var(--color-body-white);
+    line-height: 28.13px;
     background-color: var(--color-body-violet);
     font-size: 24px;
     padding-left: 61px;
@@ -154,7 +162,7 @@ body {
 }
 
 .container-features{
-      outline:  5px solid #8E32C6; 
+    outline:  5px solid #8E32C6; 
 }
 
 
@@ -165,7 +173,6 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     width: 240px;
-    /* height: 346px; */
 }
 
 .features-item_spray {
@@ -174,7 +181,6 @@ body {
     margin-left: 95px;
     margin-right: 95px;
     width: 240px;
-    /* height: 352px; */
 }
 
 .features-item_car {
@@ -183,7 +189,6 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     width: 240px;
-    /* height: 349px; */
 }
 
 .features-th{
@@ -201,38 +206,19 @@ body {
     display: flex;
 }
 
-.features-title {
+
+
+.features-title{
     font-weight: 400;
     font-family: 'Playfair Display';
     color: var(--color-body-white);
     font-size: 36px;
-}
-
-.features-title_stars {
-    font-weight: 400;
-    font-family: 'Playfair Display';
-    color: var(--color-body-white);
-    font-size: 36px;
-}
-
-
-.features-title_spray {
-    font-weight: 400;
-    font-family: 'Playfair Display';
-    color: var(--color-body-white);
-    font-size: 36px;
-}
-
-.features-title_car {
-    font-weight: 400;
-    font-family: 'Playfair Display';
-    color: var(--color-body-white);
-    font-size: 36px;
+    line-height: 47.99px;
 }
 
 /* Reviews */
 .reviews {
-    background-image: url('../images/layer_3.jpg');
+    background: url('../images/layer_3.jpg');
     padding-top: 25px;
     padding-bottom: 114px;
     border-top: 2px solid #FFFFFF;
@@ -243,16 +229,13 @@ body {
 .container-reviews {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
 }
 
 .container-tex{
     display: flex;
 }
 
-.images{
-    margin-right: 5px;
-}
 
 .reviews-list {
     display: flex;
@@ -324,7 +307,7 @@ body {
     font-weight: 400;
     font-family: 'Roboto';
     color: var(--color-body-white);
-    margin-bottom: 8px;
+    line-height: 28.13px;
 }
 
 .reviews-tex {
@@ -332,6 +315,7 @@ body {
     font-family: 'Roboto';
     color: var(--color-body-gray_6);
     margin-bottom: 47px;
+    line-height: 16.41px;
 }
 
 .reviews-subject {
@@ -343,6 +327,9 @@ body {
 .reviews-tex_subject {
     font-weight: 400;
     color: var(--color-body-gray_6);
+    font-size: 12px;
+    line-height: 14.06px;
+    font-family: 'Roboto';
 }
 
 
@@ -351,9 +338,6 @@ body {
     width: 340px;
     height: 380px;
     background-size: cover;
-    align-items: start;
-    transform: rotate(-180 deg);
-    align-items: start;
 }
 
 
@@ -379,6 +363,7 @@ body {
     color: var(--color-body-white);
     display: block;
     font-size: 48px;
+    line-height: 63.98px;
 }
 
 .form {
@@ -393,6 +378,7 @@ body {
     font-weight: 400;
     color: var(--color-body-gray_3);
     font-family: 'Roboto';
+    line-height: 32.81px;
     display: block;
     font-size: 28px;
     width: 690px;
@@ -401,17 +387,12 @@ body {
     padding-left: 20px;
 }
 
-/* .order-button_1{
-    color: var(--color-body-gray_4);
-    font-weight: 400;
-    font-family: 'Roboto';
-    font-size: 28px;
-} */
 
 .order-lead_2 {
     font-weight: 400;
     color: var(--color-body-gray_3);
     font-family: 'Roboto';
+    line-height: 28.13px;
     display: block;
     font-size: 24px;
     margin-top: 19px;
@@ -425,6 +406,7 @@ body {
     color: var(--color-body-white);
     background-color: var(--color-body-violet);
     font-weight: 400;
+    line-height: 28.13px;
     font-family: 'Roboto';
     display: block;
     font-size: 24px;
@@ -454,6 +436,7 @@ body {
     color: var(--color-body-white);
     font-family: 'Roboto';
     font-size: 24px;
+    line-height: 28.13px;
 }
 
 .footer_link {
@@ -461,22 +444,22 @@ body {
     font-weight: 400;
     font-family: 'Roboto';
     font-size: 24px;
+    line-height: 28.13px;
 }
 
 .footer-text_2 {
     color: var(--color-body-white);
     font-weight: 400;
     font-family: 'Roboto';
+    line-height: 21.09px;
     font-size: 24px;
 }
 
-.footer-item:last-child {
-    margin-bottom: 24px;
+.footer-list_2{
+  margin-bottom: 7px;
 }
 
-.footer-item_2 {
-    margin-top: 44px;
-}
+
 
 .hr {
     border: 1px solid #9B9B9B;
@@ -486,12 +469,6 @@ body {
 .footer-logo{
     display: flex;
 }
-
-
-
-/* .footer-logo_2{
-    margin-left: 624px;
-} */
 
 
 .footer_logo{
@@ -508,4 +485,5 @@ body {
     font-family: 'PT Serif';
     color: var(--color-body-white);
     font-size: 24px;
+    line-height: 21.09px;
 }
